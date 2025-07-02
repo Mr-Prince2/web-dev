@@ -22,10 +22,13 @@ Welcome to **Otaku Dev** — a beginner-friendly, anime-themed website that teac
 
 ## 📁 Project Structure
 
+```text
 /web-dev
 │
 ├── assets/
 │   └── images/
+│       ├── image1.png
+│       └── image2.jpg
 │
 ├── index.html
 ├── lessons/
@@ -48,6 +51,7 @@ Welcome to **Otaku Dev** — a beginner-friendly, anime-themed website that teac
 │
 ├── script.js
 └── style.css
+```
 
 📸 Preview
 
