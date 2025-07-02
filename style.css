@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fef6ff, #f0f7ff);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 16px;
+}
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.hero img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+.hero img {
+  width: 140px;
+  border-radius: 50%;
+  animation: float 2.5s ease-in-out infinite;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+p {
+  font-size: 1rem;
+  margin-bottom: 24px;
+  color: #555;
+}
+.buttons a {
+  display: inline-block;
+  margin: 8px 12px;
+  padding: 12px 24px;
+  background-color: #ff7ad9;
+  color: white;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+.buttons a:hover {
+  background-color: #e75cbf;
+}
+footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+
+@media (max-width: 768px) {
+  body {
+    padding: 24px 12px;
+  }
+
+  .hero img {
+    width: 120px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .buttons a {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+  }
+}
