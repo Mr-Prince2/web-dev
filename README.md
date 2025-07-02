@@ -57,6 +57,8 @@ Welcome to **Otaku Dev** — a beginner-friendly, anime-themed website that teac
 
 ![image](https://github.com/user-attachments/assets/88c3b648-c7af-4540-8a22-552232e10e9c)
 
+⚒️Reference Link : https://vinsmoke02.github.io/web-dev/
+
 
 📚 Future Improvements
 Character selector to pick your anime tutor
