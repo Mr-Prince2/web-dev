@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Playground - Anime Dev Academy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <header>
+    <h1><i class="fa-solid fa-code"></i> Code Playground</h1>
+    <p>Write HTML, CSS, and JavaScript – then see the magic!</p>
+  </header>
+
+  <div class="editor-container">
+    <p><i class="fa-brands fa-html5"></i>HTML:</p>
+    <textarea id="html" placeholder="Write HTML here..."></textarea>
+    <p><i class="fa-brands fa-css3-alt"></i>CSS:</p>
+    <textarea id="css" placeholder="Write CSS here..."></textarea>
+    <p><i class="fa-brands fa-js"></i>JS:</p>
+    <textarea id="js" placeholder="Write JavaScript here..."></textarea>
+  </div>
+
+  <button onclick="runCode()"><i class="fa-solid fa-code-commit"></i> Run Code</button>
+
+  <iframe id="output"></iframe>
+
+  <script>
+    function runCode() {
+      const html = document.getElementById('html').value;
+      const css = `<style>${document.getElementById('css').value}</style>`;
+      const js = `<script>${document.getElementById('js').value}<\/script>`;
+      const result = html + css + js;
+      const iframe = document.getElementById('output');
+      iframe.srcdoc = result;
+    }
+  </script>
+</body>
+</html>
