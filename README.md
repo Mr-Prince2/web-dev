@@ -53,14 +53,14 @@ Welcome to **Otaku Dev** — a beginner-friendly, anime-themed website that teac
 └── style.css
 ```
 ---
-**📸 Preview
-**
+## 📸Preview
+
 ![image](https://github.com/user-attachments/assets/88c3b648-c7af-4540-8a22-552232e10e9c)
 
 ⚒️Reference Link : https://vinsmoke02.github.io/web-dev/
 
 ---
-**📚 Future Improvements**
+## 📚 Future Improvements
 
 Character selector to pick your anime tutor
 Progress tracking system
@@ -69,7 +69,8 @@ Add JavaScript tutorials
 
 All anime character images used are for educational/demo purposes only.
 
-📜 License
+---
+## 📜 License
 This project is open-source and free to use for learning and teaching purposes.
 
 
